@@ -1,0 +1,15 @@
+Listen = "127.0.0.1:8000"
+
+TokenSecretKey   = "meditech"
+TokenExpiredHour = 10000
+
+#log
+ErrorLog = "error.log"
+
+#mongo
+MongoServer   = ["127.0.0.1:27017"]
+MongoUser     = ""
+MongoPassword = ""
+MongoAuthDB   = "Cloud_storage"
+MongoDatabase = "camera_ai"
+
